@@ -2,40 +2,58 @@
   const items = shuffle([
     {
       id: 0,
-      name: 'Saba',
+      name: 'Joe Roesler',
       age: 25,
-      job: 'Phillippines',
-      images: ['images/testpic4.jpg', 'images/testpic2.jpg', 'images/testpic1.jpg'],
-      distance: 25,
+      number: 2,
+      city: 'Leipzig',
+      state: 'Sachsen',
+      job: 'Busfahrer',
+      images: ['images/joe.jpg'],
+      phone: '+49.161.2345.2345',
       description: 'Swipe for me! You’ll find me very ap-peel-ing'
     },
     {
       id: 1,
-      name: 'Plantain',
+      name: 'Lea Brunn',
       age: 28,
-      job: 'Nicaragua',
-      images: ['images/testpic2.jpg', 'images/testpic4.jpg'],
-      distance: 4,
-      description: 'Lorem ipsum dolor sit amet, quo ad cibo viris legimus, simul delicata constituto per cu. Pro an commodo liberavisse, cu mutat sensibus tractatos est, animal similique ei nec. Et est molestie phaedrum, ut eam quot meliore. Usu hendrerit complectitur at, at iriure habemus facilisis sit. An eos probo graece.Propriae contentiones eu ius, pro eu ignota liberavisse disputationi, duo ea docendi consectetuer. Cum posse semper ea, ius invidunt qualisque scriptorem cu, ullum reprehendunt pro eu. Illud erant reformidans usu in. Ad vim quem choro iracundia. Ius in case mnesarchum.Duis signiferumque sed cu. Ut duo error congue intellegebat, fugit nostrud urbanitas ei has. Copiosae dissentias te eam, dicta efficiendi mea ad. Numquam persequeris te sea, ad populo graeci per, et mea aperiam noluisse interesset.Malorum abhorreant pri eu, no vidit quaeque mei, usu in dico meliore philosophia. Causae verterem pri in, te case suavitate nam. In ius ignota sanctus. Propriae repudiandae ad sit, gubergren ullamcorper usu ei. Ne vis fierent mediocritatem. Id nominati maluisset ius, soluta graece lobortis ut his, vocibus copiosae placerat est ad.Duo alia ferri impetus ei, deleniti scriptorem comprehensam ius an. Mea ne labore oblique adolescens. Ne velit albucius salutatus quo, cum iudico eripuit bonorum ad. Stet suscipit sea ad. Nec prompta suscipit mandamus at.'
+      number: 1,
+      city: 'Dortmund',
+      state: 'Nordrhein-Westfalen',
+      job: 'Studentin',
+      images: ['images/lea.jpg', 'images/lea_dib_gruendungsparteitag.jpg', 'images/lea_julia.png', 'images/buvo_berlin.jpg'],
+      phone: "+49.163.2123.1232",
+      description: 'Ich bin 28 und studiere "Philosophie und Politikwissenschaft" in Dortmund. Bei DiB werde ich für Gerechtigkeit zwischen Frauen* und Männern kämpfen, damit Politik bunter und vielfältiger wird.'
     },
     {
       id: 2,
-      name: 'Banan',
-      age: 21,
-      job: 'Finnland',
-      images: ['images/testpic3.jpg', 'images/testpic2.jpg'],
-      distance: 9,
-      description: 'I like fruits!'
+      name: 'Sara Redolfi',
+      age: 28,
+      number: 1,
+      city: 'Mitte',
+      state: 'Berlin',
+      job: 'Referenting im Auswärtigen Amt',
+      images: ['images/Sara-Redolfi.png', 'images/Sara-2.jpg', 'images/Sara-3.jpg'],
+      phone: "+49.163.2123.1232",
+      description: 'Ich arbeite im Auswärtigen Amt und schreibe parallel an meiner politikwissenschaftlichen Masterarbeit. Ich bin bei DiB, weil Deutschland eine wertebasierte Politik im Interesse seiner Bürger benötigt und weil unsere Kinder unser Bestes verdienen.'
     },
-    {
-      id: 3,
-      name: 'Actually an orange',
-      age: 12,
-      job: 'Scammer',
-      images: ['images/testpic1.jpg', 'images/testpic2.jpg'],
-      distance: 2455,
-      description: 'Follow me on my totally banana-related Instagram 📸'
-    }
+    // {
+    //   id: 2,
+    //   name: 'Banan',
+    //   age: 21,
+    //   job: 'Finnland',
+    //   images: ['images/testpic3.jpg', 'images/testpic2.jpg'],
+    //   distance: 9,
+    //   description: 'I like fruits!'
+    // },
+    // {
+    //   id: 3,
+    //   name: 'Actually an orange',
+    //   age: 12,
+    //   job: 'Scammer',
+    //   images: ['images/testpic1.jpg', 'images/testpic2.jpg'],
+    //   distance: 2455,
+    //   description: 'Follow me on my totally banana-related Instagram 📸'
+    // }
   ]);
 
   const dataProvider = (function* () {

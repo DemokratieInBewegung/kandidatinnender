@@ -1,5 +1,5 @@
 (function () {
-  const items = [
+  const items = shuffle([
     {
       id: 0,
       name: 'Saba',
@@ -36,7 +36,7 @@
       distance: 2455,
       description: 'Follow me on my totally banana-related Instagram 📸'
     }
-  ];
+  ]);
 
   const dataProvider = (function* () {
     while (true) {
